@@ -1,0 +1,212 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+p {    margin: 0;
+    color: gray;
+}
+
+.header-image{
+    background-image: url("../images/header-background.jpg");
+    width:100%;
+    height:100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-menu ul{
+    list-style-type: none;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-flow: row nowrap;
+    position: fixed;
+    background-color: #1a1516;
+    padding: 15px;
+    z-index: 2;
+    width: 100%;
+
+}
+
+#main-menu ul li{
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+#main-menu ul li:hover{
+    color: #ab4b4b !important;
+}
+
+.my-name{
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    color: #f3eeee;
+    padding-top: 12%;
+    margin: 0;
+}
+.my-description{
+    text-align: center;
+    color: gray;
+    padding-top: 18px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.highlighted{
+    color: white;
+}
+.line-separator{
+    border-bottom: 1px outset gray;
+    width: 37%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.social-icons ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.social-icons li{
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slider{
+    text-align: center;
+}
+.slider img{
+    position: absolute;
+    bottom: 15px;
+}
+.about-me{
+    background-color: #343333;
+    padding-bottom: 30px;
+}
+.about-me img{
+    border-radius: 50%;
+}
+.aboutme-text{
+    color: white;
+}
+.contact-text,.about-text{
+    color: white;
+}
+.profile-pic{
+    padding-top: 5%;
+    padding-left: 160px !important;
+    padding-right: 160px !important;
+}
+.about-content, .resume-content, .work-content, .skills-content{
+    padding-top: 4%;
+}
+.download-btn{
+    color: white;
+    background-color: #4d4c4cfa;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+#resume , #work, #skills{
+    padding-bottom: 40px;
+    background-color: #f5f5f538;
+
+}
+.education-head, .work-head, .skills-head{
+    padding-top: 5%;
+    padding-left: 160px !important;
+    padding-right: 160px !important;
+
+}
+#resume h5{
+    border-bottom: 2px solid #0ec4c4;
+    width: 112px;
+
+}
+#resume h6, #work h6, #skills h6{
+    color: gray;
+}
+#resume p, #work p, #skills p{
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.dot-image{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+.line-separator2{
+    border-bottom: 1px outset #dddada5c;
+    width: 65%;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+}
+#work h5, #skills h5{
+    border-bottom: 2px solid #0ec4c4;
+    width: 62px;
+}
+
+.progres-bar{
+    width: 65%;
+    height: 35px;
+    background-color: #a3a3a2bf;
+    display: inline-block;
+    border: none;
+}
+.photoshop-prog, .wordpress-prog, .illustrator-prog, .css-prog, .html5-prog, .jquery-prog{
+    width: 70%;
+    background-color: #000000ab;
+    height: 35px;
+}
+#skills h6{
+    padding-top: 12px;
+    color: #3d3d3d;
+    font-size: 14px;
+}
+#my-works{
+    background-color: #e5e2e2;
+    padding-top: 40px;
+}
+#my-works p{
+    text-align: center;
+    font-size: 12px;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.portfolio div {
+    width: 25%;
+    padding-top: 25px;
+}
+
+.portfolio div img{
+    width: 190px;
+    height: 190px;
+}
+#testimonial div{
+    text-align: center;
+}
+#testimonial{
+    background-color: #d3d3d3b5;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.contact-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #6086a7;
+    text-align: center;
+    padding-top: 25px;
+}
